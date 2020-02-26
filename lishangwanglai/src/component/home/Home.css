@@ -55,7 +55,7 @@
 	line-height: 35px;
 	padding-left: 20px;
 	box-sizing: border-box;
-	background-color: rgba(188,188,188,1);
+	background-color: rgba(188,188,200,1);
 }
 #home-bottom1 span{
 	margin-right: 43px;
@@ -73,6 +73,6 @@
 }
 #home-bottom2 span{
 	margin-right: 40px;
-	font-size: 14px;
+	font-size: 12px;
 	
 }
