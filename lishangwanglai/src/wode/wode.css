@@ -1,0 +1,55 @@
+.wd{
+	font-size: 40px;
+	color: #708090;
+	text-align: center;
+	padding: 16px 0;
+}
+.m_touxiang{
+	padding: 12px 20px;
+	border-top: 12px solid #E4E4E4;
+	border-bottom: 12px solid #E4E4E4;
+}
+.m_touxiangL{
+	float: left;
+	vertical-align: middle;
+}
+.m_touxiangL svg{
+	width: 100px;
+	height: 100px;
+}
+.m_touxiangR{
+	line-height: 100px;
+	font-size: 24px;
+	color: #708090;
+}
+.m_touxiangRr{
+	float: right;
+}
+.m_fanhui{
+	float: right;
+}
+.wd_list{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #E4E4E4;
+	padding:0 10px;
+}
+.wd_listl{
+	float: left;
+	font-size: 30px;
+}
+.wd_listr{
+	float: right;
+}
+.clearfix:after {
+		/*伪元素是行内元素 正常浏览器清除浮动方法*/
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	
+	.clearfix {
+		*zoom: 1;
+	}
