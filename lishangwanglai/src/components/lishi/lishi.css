@@ -1,0 +1,54 @@
+.lishi-header{
+	display: flex;
+	width: 100%;
+}
+.lishi-fanhui{
+	flex: 1;
+	font-size: 36px;
+	padding: 24px 0 0 25px;
+}
+.lishi-tab{
+	flex: 3;
+	display: flex;
+	margin-top: 4px;
+}
+.lishi-tab a{
+	display: block;
+	flex: 1;
+	text-align: center;
+	padding: 30px 0;
+	border-radius: 8px;
+	border: 3px solid #199ed8;
+	font-size: 30px;
+	color: #199ed8;
+}
+.lishi-tab a.active{
+	background: #199ed8;
+	color: #fffffa;
+}
+.lishi-reduce{
+	flex: 1;
+	font-size: 40px;
+	padding: 24px 35px 0 0;
+	text-align: right;
+}
+.lishi-tab li a.active{
+	background: #199ed8;
+	color: #fffffa;
+}
+.lishi-ele{
+	font-size: 32px;
+	padding:20px;
+}
+.clearfix:after {
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	
+	.clearfix {
+		*zoom: 1;
+		
+	}

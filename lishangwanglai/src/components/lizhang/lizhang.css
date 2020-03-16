@@ -1,0 +1,169 @@
+.lizhang-header{
+	display: flex;
+	width: 100%;
+}
+.lizhang-fanhui{
+	display: block;
+	flex: 1;
+	font-size: 36px;
+	padding: 24px 0 0 25px;
+}
+.lizhang-tab{
+	flex: 3;
+	display: flex;
+	margin-top: 4px;
+}
+.lizhang-tab a{
+	display: block;
+	flex: 1;
+	text-align: center;
+	padding: 30px 0;
+	border-radius: 8px;
+	border: 3px solid #199ed8;
+	font-size: 30px;
+	color: #199ed8;
+}
+.lizhang-reduce{
+	flex: 1;
+	font-size: 40px;
+	padding: 24px 35px 0 0;
+	text-align: right;
+}
+.lizhang-tab a.active{
+	background: #199ed8;
+	color: #fffffa;
+}
+.lizhang-ele{
+	font-size: 32px;
+	padding:20px;
+}
+.lizhang-denglu{
+	width: 80px;
+	font-size: 28px;
+	position: fixed;
+	right: -15px;
+	top:15px;
+	display: none;
+	}
+.qw{
+	width:80%;
+	height: 360px;
+	position: fixed;
+	top:30%;
+	margin-left: 10%;
+	background: #DDDDDD;
+	display: none;
+}	
+.qwImg{
+	width: 100%;
+	padding: 5;
+	display: flex;
+}
+.qwtext{
+	width: 100%;
+	display: flex;
+}
+.qwtext div{
+	flex: 1;
+	text-align: center;
+}	
+.qw img{
+	flex: 1;
+	height: 250px;
+	margin: 5px;
+}
+.qwclose{
+	font-size: 36px;
+	float: right;
+	margin-right: 10px;
+}
+#registerChild .lizhang-tab{
+	margin-left: 50px;
+}
+.registerSpan,.registerInput{
+	color: #199ed8;
+	font-weight: bold;
+	font-size: 50px;
+	margin-left: 22px;
+	line-height: 80px;
+}
+.registerInput{
+	outline: none;
+	border: none;
+}
+.registerDiv{
+	min-height: 180px;
+	padding:10px;
+	font-size: 30px;
+	border-top: 2px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+	outline: none;
+}
+.registerDate{
+	padding: 10px;
+}
+.registerDate svg{
+	margin-right: 5px;
+	width: 60px;
+	height: 30px;
+}
+.registerDate span{
+	font-size: 30px;
+}
+.registerJia span{
+	display: inline-block;
+	border: 1px solid #949494;
+	text-align: center;
+	line-height: 37px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #949494;
+}
+.registerJia{
+	font-size: 40px;
+	background: #DDDDDD;
+	text-align: center;
+	line-height: 84px;
+}
+.typeDiv{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom:-160px;
+	transition: .5s;
+	z-index: 2;
+	background: #fff;
+}
+.typeLi{
+	font-size: 30px;
+	border-bottom: 1px solid #BCBCBC;
+	text-align: center;
+	padding: 6px 0;
+}
+.tijiao{
+	width: 100%;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #199ed8;
+	
+}
+.clearfix:after {
+		/*伪元素是行内元素 正常浏览器清除浮动方法*/
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	
+	.clearfix {
+		*zoom: 1;
+		/*ie6清除浮动的方式 *号只有IE6-IE7执行,其他浏览器不执行*/
+	}
